@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="add-course">  
+        <div class="container">
+            <h1>employees</h1>
+        <label for="">employee name</label>
+        <input   class="inputs" type="text" placeholder="employees"  id="employeeName">
+        <div class="error">please start with capital later</div>
+        <label for="">job type</label>
+        <input class="inputs"  type="text" placeholder="job type"  id="jobType">
+        <label for="">salary</label>
+        <input class="inputs"  type="number" placeholder="cource price" id="salary" >
+        <label for="">job description</label>
+        <textarea class="inputs" placeholder="course description" id="jobDescription"></textarea>
+        <button  id="click" >Add employee</button>
+        <button  id="clear" onclick="ResetFields()">clear</button>
+
+    </div>
+
+    <input type="search" 
+     placeholder="search... 
+     " id="search" onkeyup="search(this.value)">
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>employee name</th>
+                <th>job type</th>
+                <th>salary</th>
+                <th>job description</th>
+                <th>update</th>
+                <th>delete</th>
+            </tr>
+        </thead>
+        <button class="delete" id="deleteBtn">delete all</button>
+        <tbody id="data">
+
+           
+        </tbody>
+    </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

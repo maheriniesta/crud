@@ -1,0 +1,62 @@
+.add-course{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+    margin-top: 40px;
+    box-shadow: -12px -9px 10px 4px #888;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+    
+}
+textarea{
+    display: block;
+    margin: auto;
+    width: 50%;
+    box-shadow: -4px -4px 10px 0px #888;
+}
+button{
+    margin: 10px;
+    box-shadow:inset -2px -2px 8px 0px #0e29e3;
+    
+}
+table{
+    margin:10px auto;
+    width: 100%;
+    table-layout:inherit;
+    background-color:rgb(252, 235, 215);
+    box-shadow:inset 2px -1px 8px 0px #0e29e3;
+}
+input{
+    width: 50%;
+    box-shadow: -4px -4px 10px 0px #888;
+}
+.delete{
+    background-color: red;
+    color: #fff;
+    border: red;
+    border-radius: 10%;
+    transition: .5s;
+
+}
+.delete:hover{
+    background-color:transparent;
+    border: 1px red solid;
+    color: red;
+    
+}
+.update{
+    background-color: green;
+    color: #fff;
+    border: green;
+    border-radius: 10%;
+    transition: .5s;
+}
+.update:hover{
+    background-color:transparent;
+    border: 1px green solid;
+    color: green;
+}
